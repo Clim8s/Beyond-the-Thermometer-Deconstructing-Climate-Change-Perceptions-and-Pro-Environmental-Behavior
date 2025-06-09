@@ -60,10 +60,12 @@ Running the analysis will generate:
 - `survey_data.csv` – The cleaned dataset used for analysis  
 - `main_analysis.ipynb` – Jupyter/Colab notebook with all code and explanations  
 - `requirements.txt` – List of Python packages required  
-- `Colab_Link.txt` – Direct link to open the notebook in Google Colab  
-- `models/` (folder, optional) – If included, contains saved ML models  
-- `figures/` (folder, optional) – Stores generated plots and visualizations  
-- `notes.txt` (optional) – Any relevant notes or assumptions made during the project
+- `Colab_Link.txt` – Direct link to open the notebook in Google Colab
+## 🔗 Open in Google Colab
+
+[Click here to open the notebook in Colab](https://colab.research.google.com/drive/1CBPvCiAArnsQs0AOPAfsi49T0Ovxo85I?usp=sharing#scrollTo=uScR3gZeN7jP)
+  
+
 
 ---
 
