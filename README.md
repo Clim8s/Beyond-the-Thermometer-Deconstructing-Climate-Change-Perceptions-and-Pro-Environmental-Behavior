@@ -81,5 +81,7 @@ Running the analysis will generate:
 Students at **Politecnico di Torino**  
 MSc in *Georesources and Geoenergy Engineering*  
 MSc in *Chemical and Sustainable Processes Engineering*
+**Data Science & Machine Learning for Engineering Applications** 
+**Prof. Daniele Quercia**
 
 **Date:** June 2025
