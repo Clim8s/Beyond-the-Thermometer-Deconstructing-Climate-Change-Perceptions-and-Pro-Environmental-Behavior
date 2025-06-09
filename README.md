@@ -1,3 +1,4 @@
+
 # Climate Change Survey Data Analysis with Machine Learning
 
 ---
@@ -8,9 +9,9 @@ To run the analysis from start to finish, follow these steps:
 
 1. **Download and extract** the ZIP archive containing this project.  
 2. Ensure you have **Python 3.8 or above** installed (preferably via Anaconda or a virtual environment).  
-3. Open the provided Google Colab notebook (link inside the file: `Colab_Link.txt`) **OR** run `main_analysis.ipynb` locally.  
+3. Open the provided Google Colab notebook (link inside `Colab_Link.txt`) **OR** run `main_analysis.ipynb` locally.  
 4. *(Optional)* Install required Python libraries using `pip install -r requirements.txt`.  
-5. Execute the notebook cells in order. The notebook handles:  
+5. Execute the notebook cells in order. The notebook handles:
    - Data loading and cleaning  
    - Exploratory data analysis (EDA)  
    - Correlation analysis  
@@ -24,19 +25,39 @@ To run the analysis from start to finish, follow these steps:
 
 This project depends on the following Python libraries:
 
-- pandas  
-- numpy  
-- matplotlib  
-- seaborn  
-- scikit-learn  
-- statsmodels  
-- scipy  
-- notebook or Jupyter Lab (if running locally)
+- pandas==2.2.2  
+- numpy==1.26.4  
+- matplotlib==3.8.4  
+- seaborn==0.13.2  
+- scikit-learn==1.4.2  
 
-Install all dependencies using:
+These are listed in the file: `requirements.txt`
 
+### ▶ LOCAL INSTALLATION (recommended via virtual environment):
+
+**Step 1**: Create and activate a virtual environment  
+- *Windows*:
+```bash
+python -m venv venv  
+venv\Scripts\activate
+```
+- *macOS/Linux*:
+```bash
+python3 -m venv venv  
+source venv/bin/activate
+```
+
+**Step 2**: Install dependencies
 ```bash
 pip install -r requirements.txt
+```
+
+### ▶ GOOGLE COLAB:
+
+These libraries are usually pre-installed.  
+If needed, run this in a Colab cell:
+```python
+!pip install pandas==2.2.2 numpy==1.26.4 matplotlib==3.8.4 seaborn==0.13.2 scikit-learn==1.4.2
 ```
 
 ---
@@ -56,16 +77,16 @@ Running the analysis will generate:
 
 ## 4. DOCUMENTATION OF FILES
 
-- `README.md` – This file; explains how to use the project  
-- `survey_data.csv` – The cleaned dataset used for analysis  
-- `main_analysis.ipynb` – Jupyter/Colab notebook with all code and explanations  
-- `requirements.txt` – List of Python packages required  
-- `Colab_Link.txt` – Direct link to open the notebook in Google Colab
-## 🔗 Open in Google Colab
+Here’s what each file does:
 
-[Click here to open the notebook in Colab](https://colab.research.google.com/drive/1CBPvCiAArnsQs0AOPAfsi49T0Ovxo85I?usp=sharing#scrollTo=uScR3gZeN7jP)
-  
-
+- `CLIM8S_DS2025_Report.docx` – Report with results and workflow explanation  
+- `README.md` – This file: setup, instructions, and documentation  
+- `survey_178.csv` – The dataset used for analysis  
+- `main_analysis.ipynb` – The complete Colab/Jupyter notebook with code and discussion  
+- `requirements.txt` – List of required libraries and versions  
+- `Colab_Link.txt` – Shareable Google Colab link  
+- `figures/` – Folder with generated plots  
+- `models/` – Folder with saved ML models used
 
 ---
 
@@ -84,7 +105,7 @@ Students at **Politecnico di Torino**
 MSc in *Georesources and Geoenergy Engineering*  
 MSc in *Chemical and Sustainable Processes Engineering*
 
-**Data Science & Machine Learning for Engineering Applications** 
-**Prof. Daniele Quercia**
+**Course**: Data Science & Machine Learning for Engineering Applications  
+**Instructor**: Prof. Daniele Quercia
 
-**Date:** June 2025
+**Date**: June 2025
