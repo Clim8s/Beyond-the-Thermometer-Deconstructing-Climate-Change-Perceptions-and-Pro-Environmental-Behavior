@@ -1,5 +1,3 @@
-Here's a sample README.txt template tailored to your *climate change survey data science project using machine learning*, with the required sections:
-
 ---
 
 `
@@ -70,11 +68,25 @@ Here's what each file in the project does:
 * `notes.txt` (optional) – Any relevant notes or assumptions made during the project.
 
 \==================================================================
-Project by \[Your Name / Team], MSc Georesources and Geoenergy
-\[University Name], \[Course or Instructor Name]
-Date: \[Insert Date]
+Project by :
+Dana Hamdan
+Ali Mehri
+Sherif Khairy
+Mohamed Shedid
+Anthony Mansour
+Antonio Petrarulo
+Mohannad El Sahmarani
+Amir Bayat
+MSc Georesources and Geoenergy
+MSc Chemical and Sustainable Processes Engineering
+Politecnico di Torino
+Data science and machine learning
+Prof. Daniele Quercia
+Date: 
+june 2025
 ====================
 
 
 
 ---
+
