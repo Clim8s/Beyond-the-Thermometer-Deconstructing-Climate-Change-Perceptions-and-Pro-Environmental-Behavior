@@ -74,7 +74,10 @@ Running the notebook will generate:
 
 Here’s what each file does:
 
-* `CLIM8S_DS2025_Report.docx`- This file includes the reports with results and workflow explanation.
+* `CLIM8S_DS2025_Report.docx`- This file includes the reports with results and workflow explanation in word.
+* `CLIM8S_DS2025_Report.pdf`- This file includes the reports with results and workflow explanation as pdf.
+* `survey_responses_long_format.csv`- This file includes all columns with one response per row.
+* `survey_responses_one_column.csv`- This file includes all in one column.
 * `README.txt` – This file; setup, instructions, and documentation.
 * `survey_178.csv` – The dataset used for analysis.
 * `main_analysis.ipynb` – The complete Colab/Jupyter notebook with code and discussion.
